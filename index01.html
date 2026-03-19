@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN CONTAINER */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  background: #ffffff;
+  text-align: center;
+  padding: 15px 10px 5px;
+}
+
+.header img {
+  width: 320px;
+}
+
+.header p {
+  margin: 5px 0;
+  color: #2c5fa6;
+  font-size: 16px;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #2c5fa6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* HERO IMAGE */
+.hero {
+  flex: 1;
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+}
+
+/* HERO TEXT */
+.hero-text {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+/* CTA SECTION */
+.cta {
+  background: #2c5fa6;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  font-size: 15px;
+  max-width: 70%;
+}
+
+/* BUTTON */
+.cta button {
+  background: #ffffff;
+  color: #2c5fa6;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <!-- 🔥 Replace with your actual Rapid/Riskpro logo -->
+    <img src="riskproslogo.png">
+    <p>Give us a call (248) 537-9200</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <span>RATES</span>
+    <span>PURCHASE</span>
+    <span>REFINANCE</span>
+    <span>REAL ESTATE</span>
+    <span>RESOURCES</span>
+    <span>COMPANY</span>
+    <span>APPLY NOW</span>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-text">
+      Your Mortgage, Simplified
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta">
+    <div class="cta-text">
+      If you have mortgage related questions, we have the answers. Ask away and one of our experienced lending professionals will be happy to help you out.
+    </div>
+    <button>ASK AN EXPERT</button>
+  </div>
+
+</div>
+
+</body>
+</html>
